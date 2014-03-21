@@ -2,8 +2,8 @@
 	"name": "EB_Tooling_Test",
 	"description": "Et test af tooling",
 	"require": {
-		"php": ">=5.5.0",
-		"facebook/php-sdk": "dev-master"
+		"php": ">=5.4.0",
+		"slim/slim": "2.*"
 	},
 	"minimum-stability": "stable"
 }
