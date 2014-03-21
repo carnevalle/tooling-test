@@ -1,0 +1,9 @@
+{
+	"name": "EB_Tooling_Test",
+	"description": "Et test af tooling",
+	"require": {
+		"php": ">=5.5.0",
+		"facebook/php-sdk": "dev-master"
+	},
+	"minimum-stability": "stable"
+}

@@ -1,0 +1,14 @@
+# Laravel
+/vendor
+
+# Composer
+composer.phar
+composer.lock
+
+#frontend
+/public/bower_components
+/public/node_modules
+
+# OS
+.DS_Store
+Thumbs.db
