@@ -2,7 +2,10 @@
 
 - Composer
 - NPM
+- Bower
 - Gulp
+
+Check websites to see how to install
 
 ## Install
 
