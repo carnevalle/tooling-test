@@ -14,4 +14,9 @@ $app->get('/test', function() use ($app) {
 $app->get('/hello/:name', function ($name) {
     echo "Hello, $name";
 });
+
+$app->get('/', function () {
+    echo "HELLO WORLD";
+});
+
 $app->run();
