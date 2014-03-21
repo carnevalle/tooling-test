@@ -12,8 +12,13 @@ gulp.task('less', function() {
     .pipe(notify({ message: 'Less task complete' }));
 });
 
+gulp.task('copy', function() {
+  gulp.src('./bower_components/bootstrap/dist/**')
+  .pipe(gulp.dest('./'));
+});
+
 // Default Task
-gulp.task('default', ['less', 'watch']);
+gulp.task('default', ['less', 'copy', 'watch']);
 
 gulp.task('watch', function() {
     gulp.watch('./less/**/*.less', ['less']);
